@@ -1,5 +1,5 @@
 alert(
-  "This is a calculator you can use in your browser. Please enter your mathematical problem. You can only solve for 2 numbers on this calculator."
+  "This is a calculator you can use in your browser. \nPlease enter your mathematical problem. \nYou can only solve for 2 numbers on this calculator."
 );
 
 function add(a, b) {
