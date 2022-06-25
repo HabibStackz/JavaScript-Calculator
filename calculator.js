@@ -32,7 +32,7 @@ function calculate(a, b, operation) {
 let a = parseFloat(prompt("Kindly enter the first number: "));
 let b = parseFloat(prompt("Kindly enter the second number: "));
 let operation = prompt(
-  "Enter the math problem you want to solve: \n add: +\n subtract: -\n divide: /\n multiply: * "
+  "Enter the mathematical problem you want to solve: \n add: +\n subtract: -\n divide: /\n multiply: * "
 );
 
 calculate(a, b, operation);
