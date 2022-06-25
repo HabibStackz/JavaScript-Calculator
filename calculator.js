@@ -25,14 +25,14 @@ function calculate(a, b, operation) {
   } else if (operation == "*") {
     multiply(a, b);
   } else {
-    alert("Please enter a valid operation.");
+    alert("Sorry, I cant solve that because your input is wrong. Kindly try again.");
   }
 }
 
-let a = parseFloat(prompt("Please enter the first number: "));
-let b = parseFloat(prompt("Please enter the second number: "));
+let a = parseFloat(prompt("Kindly enter the first number: "));
+let b = parseFloat(prompt("Kindly enter the second number: "));
 let operation = prompt(
-  "Enter the calculation you would like to perform: \n add: +\n subtract: -\n divide: /\n multiply: * "
+  "Enter the math problem you want to solve: \n add: +\n subtract: -\n divide: /\n multiply: * "
 );
 
 calculate(a, b, operation);
