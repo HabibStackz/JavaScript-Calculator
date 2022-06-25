@@ -1,5 +1,12 @@
 alert(
-  "This is a calculator you can use in your browser. \nPlease enter your mathematical problem. \nYou can only solve for 2 numbers on this calculator."
+  `This is a calculator you can use in your browser by following these instructions:
+  
+  1. When prompted, simply enter your first and second numbers.
+  2. Choose which mathematical problem you would like to solve,
+      such as: addition, subtraction, division and multiplication.
+     
+   NOTE: You can only solve for 2 numbers (integer or float) at a time on this calculator.
+  `
 );
 
 function add(a, b) {
@@ -25,7 +32,9 @@ function calculate(a, b, operation) {
   } else if (operation == "*") {
     multiply(a, b);
   } else {
-    alert("Sorry, I cant solve that because your input is wrong. Kindly try again.");
+    alert(
+      "Sorry, I cant solve that because your input is wrong. Kindly try again."
+    );
   }
 }
 
